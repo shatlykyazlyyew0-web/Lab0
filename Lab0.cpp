@@ -1,4 +1,5 @@
-﻿int main()
+﻿#include<stdio.h>
+int main()
 {
     const int szz = 10;
     int array[szz] = { 5,5,7,3,3,2,2,1,1,10 };
@@ -34,6 +35,5 @@
         else
             array[i] = notExist;
     }
-
     printf("countEl = %d", countEl);
 }
