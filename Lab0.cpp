@@ -35,6 +35,5 @@ int main()
         else
             array[i] = notExist;
     }
-
     printf("countEl = %d", countEl);
 }
